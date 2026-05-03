@@ -5,5 +5,8 @@
 import math
 
 def square_area(A):
+    """
+    Вычесляет площадь квадрата по четверти длинны окружности
+    """
     r = 2 * A / math.pi
     return r * r
