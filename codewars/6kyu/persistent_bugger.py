@@ -35,3 +35,6 @@ def persistence(n):
         count += 1
 
     return count
+
+    #
+    # Solved on Codewars
