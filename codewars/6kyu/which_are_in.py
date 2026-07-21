@@ -15,7 +15,8 @@ def in_array(array1, array2):
     for word in array1:
         for word_two in array2:
             if word in word_two:
-                result.append(word)
+                if word not in result:
+                    result.append(word)
                 break
     return sorted(result)
 
